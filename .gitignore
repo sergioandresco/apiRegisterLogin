@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpeta de entorno virtual de Python (si estás usando uno)
+venv/
+env/
+
+# Archivos de configuración local
+*.sqlite3  # Archivo de base de datos SQLite
+*.env      # Variables de entorno locales
+.env
+
+# Carpeta de archivos estáticos generados por Django
+static/
+
+# Carpeta de archivos de medios generados por Django (archivos cargados por los usuarios)
+media/
+
+# Logs y archivos temporales
+*.log
+*.swp
+
+# Archivos específicos de tu editor o IDE
+.vscode/
+.idea/
+
+# Dependiendo de tu sistema operativo, es posible que quieras excluir estos archivos
+.DS_Store
+Thumbs.db
+
+# Archivos de caché
+__pycache__/
+.cache/
+.cachefile
+
+# Dependiendo de tu sistema de control de versiones, puedes querer ignorar estos archivos
+.svn/
+.git/
+.hg/
